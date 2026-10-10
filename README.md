@@ -129,4 +129,4 @@ esp32-tv-distance-guard/
 
 ## Lisensi
 
-Tambahkan lisensi pilihan Anda (mis. MIT) sebelum dipublikasikan.
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).

@@ -87,8 +87,8 @@ Board: **ESP32** (Boards Manager: *esp32 by Espressif Systems*).
 3. Isi kredensial di kode:
 
 ```cpp
-const char* WIFI_SSID = "NAMA_WIFI_ANDA";   // harus 2.4 GHz
-const char* WIFI_PASS = "PASSWORD_WIFI";
+const char* WIFI_SSID = "GANTI_DENGAN_NAMA_WIFI_ATAU_HOTSPOT_ANDA";   // harus 2.4 GHz
+const char* WIFI_PASS = "GANTI_DENGAN_PASSWORD_WIFI_ANDA";
 #define BOT_TOKEN "TOKEN_BOT_TELEGRAM"
 #define CHAT_ID   "CHAT_ID_ANDA"
 ```
@@ -121,10 +121,10 @@ Bot hanya merespons `CHAT_ID` pemilik.
 ## Struktur Repositori
 
 ```
-TV_WARNING/
-├── TV_WARNING.ino
+esp32-tv-distance-guard/
 ├── README.md
-└── .gitignore      (disarankan: abaikan secrets.h)
+└── TV_WARNING/
+    └── TV_WARNING.ino
 ```
 
 ## Lisensi
